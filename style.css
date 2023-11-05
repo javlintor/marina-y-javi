@@ -1,0 +1,134 @@
+body {
+    font-size: 20px;
+    background-image: url("images/background.jpg");
+    background-repeat: repeat-y;
+    background-size: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+}
+
+.menu-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: white;
+    border: gray 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #eee;
+}
+
+.header-menu {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    font-size: 0.7rem;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.save-our-date {
+    text-align: center;
+    margin: 4rem 0 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.save-our-date::before,
+.save-our-date::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+
+.save-our-date::before {
+    right: 0.5em;
+    margin-left: -2.5%;
+}
+
+.save-our-date::after {
+    left: 0.5em;
+    margin-right: -2.5%;
+}
+
+.names {
+    text-align: center;
+    margin: 4rem 0 0 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.date {
+    text-align: center;
+    margin: 4rem 0 0 0;
+}
+
+.where {
+    text-align: center;
+    margin: 4rem 0 0 0;
+}
+
+.confirmation-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.rings-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rings {
+    width: 10vw;
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    margin: 4rem 0 0 0;
+    top: 80vh;
+}
